@@ -1,17 +1,25 @@
 
 import { Button } from "@/components/ui/button";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { TableCell, TableRow } from "@/components/ui/table";
 import { ArrowRight, Search, X } from "lucide-react";
+import { OrderDetails } from "./order-details";
 
 
 export function OrdeTableRow() {
     return(
         <TableRow>
             <TableCell>
-                <Button variant='outline' size='xs' className="cursor-pointer">
-                    <Search className="h-3 w-3" />
-                    <span className="sr-only">Detalhes do produto</span>
-                </Button>
+                <Dialog>
+                    <DialogTrigger>
+                        <Button variant='outline' size='xs' className="cursor-pointer">
+                            <Search className="h-3 w-3" />
+                            <span className="sr-only">Detalhes do produto</span>
+                        </Button>
+                    </DialogTrigger>
+
+                    <OrderDetails/>
+                </Dialog>
             </TableCell>
             <TableCell className="font-mono text-xs font-medium">
                 2342432fdsfsdfsdfsdf
