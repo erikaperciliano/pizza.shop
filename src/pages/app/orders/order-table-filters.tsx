@@ -64,7 +64,7 @@ export function OrderTableFilters() {
         setSearchParams((state) => {
             state.delete('orderId')
             state.delete('customerName')
-            state.delete('state')
+            state.delete('status')
             state.set('page', '1')
 
             return state
