@@ -32,6 +32,13 @@ Manager email: diego.schell.f@gmail.com
 (No password required if your backend does not implement auth logic yet)
 ```
 
+## Screenshots 📸
+<img src="https://github.com/user-attachments/assets/a7edc66e-925c-4824-9071-2cce8e0c937d" alt="Home dark" width="600" height="350">
+<img src="https://github.com/user-attachments/assets/a563440a-0b98-4d94-b35a-f1ae20bef5c4" alt="Home dark" width="600" height="300">
+<img src="https://github.com/user-attachments/assets/1324187a-9518-4b91-a787-a3329b5dc627" alt="Home dark" width="600" height="300">
+<img src="https://github.com/user-attachments/assets/6a9feab9-dcd6-4336-af5a-b9b1b6fd1349" alt="Home dark" width="600" height="300">
+
+
 ## 🛠️ Built with
 
 * [React](https://pt-br.reactjs.org) - Framework web
