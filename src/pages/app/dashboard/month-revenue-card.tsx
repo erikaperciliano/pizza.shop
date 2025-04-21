@@ -2,6 +2,7 @@ import { getMonthRevenueOrdersAmount } from "@/api/get-month-revenue";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useQuery } from "@tanstack/react-query";
 import { DollarSign } from "lucide-react";
+import { MetricCardSkeleton } from "./metric-card-skeleton";
 
 export function MonthRevenueCard() {
     const { data: monthRevenue } = useQuery({
@@ -28,7 +29,7 @@ export function MonthRevenueCard() {
                         })
                         : '—'}
                 </span>
-                {diff !== null && (
+                {diff !== null ? (
                     <p className="text-xs text-muted-foreground">
                         <span className={isPositive
                             ? "text-emerald-500 dark:text-emerald-400"
@@ -37,6 +38,8 @@ export function MonthRevenueCard() {
                         </span>{' '}
                         em relação ao mês passado
                     </p>
+                ): (
+                    <MetricCardSkeleton />
                 )}
             </CardContent>
         </Card>
