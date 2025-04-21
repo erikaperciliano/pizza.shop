@@ -24,6 +24,14 @@ npm i
 npm run dev
 ```
 
+### 🔐 Test Credentials
+To explore the dashboard, use the following credentials:
+```
+Manager email: diego.schell.f@gmail.com
+
+(No password required if your backend does not implement auth logic yet)
+```
+
 ## 🛠️ Built with
 
 * [React](https://pt-br.reactjs.org) - Framework web
