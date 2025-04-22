@@ -44,7 +44,7 @@ export function Pagination({ pageIndex, perPage, totalCount, onPageChange }: Pag
                         onClick={() => onPageChange(pageIndex + 1)} 
                         variant='outline' 
                         className="h-8 w-8 p-0 cursor-pointer"
-                        disabled={pageIndex === 0}
+                        disabled={pageIndex + 1 >= pages}
                     >
                         <ChevronRight className="h-4 w-4"/>
                         <span className="sr-only">Próxima página</span>
