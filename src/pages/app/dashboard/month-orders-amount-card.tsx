@@ -17,7 +17,7 @@ export function MonthOrdersAmountCard() {
                 <Utensils className="h-4 w-4 text-muted-foreground"/>
             </CardHeader>
             <CardContent className="space-y-1">
-                <span className="text-2xl font-bold tracking-tight">{monthOrdersAmount?.amount.toLocaleString('pt-BR')}</span>
+                <span className="text-2xl font-bold tracking-tight">{monthOrdersAmount?.amount?.toLocaleString('pt-BR')}</span>
                 <p className="text-xs text-muted-foreground">
                     {typeof monthOrdersAmount?.diffFromLastMonth === 'number' ? (
                         monthOrdersAmount.diffFromLastMonth >= 0 ? (

@@ -17,7 +17,7 @@ export function MonthCanceledOrdersAmountCard() {
                 <DollarSign className="h-4 w-4 text-muted-foreground"/>
             </CardHeader>
             <CardContent className="space-y-1">
-                <span className="text-2xl font-bold tracking-tight">{monthCancelOrdersAmount?.amount.toLocaleString('pt-BR')}</span>
+                <span className="text-2xl font-bold tracking-tight">{monthCancelOrdersAmount?.amount?.toLocaleString('pt-BR')}</span>
                 <p className="text-xs text-muted-foreground">
                     {typeof monthCancelOrdersAmount?.diffFromLastMonth === 'number' ? (
                         monthCancelOrdersAmount.diffFromLastMonth < 0 ? (
