@@ -53,7 +53,6 @@ Manager email: diego.schell.f@gmail.com
 * [React Query](https://tanstack.com/query/latest/docs/framework/react/overview) - Is often described as the missing data-fetching library for web applications
 * [Shadcn/ui](https://ui.shadcn.com/docs) - Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
 
-# 🎯Result:
 <br/>
 
 ---
